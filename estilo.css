@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+header,nav,section,footer,aside,article ,hgroup{
+
+    display: block;
+}
+body{
+    text-align: center;
+    background: gainsboro;
+}
+
+.agrupar{
+    width: 960px;
+    border: 1px solid black;
+    margin: 40px auto;
+    background-color: wheat;
+    
+    
+}
+.cabezera{
+    color: rgb(248, 241, 241);
+    background: rgb(23, 87, 32);
+    
+    padding: 15px;
+    text-align: left;
+
+}
+.menu{
+    background: rgb(23, 87, 32);
+    padding: 5px 15px;
+    color: #000;
+    text-align: left;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: oblique;
+    display: inline-block;
+    border: 1px solid black
+    
+}
+.menu li{
+    background: rgb(228, 178, 228);
+}
+
+.seccion{
+    margin: 15px;
+    width: 600px;
+    border: 1px solid black;
+    float: left;
+}
+.art1{
+      background:rosybrown;
+        border: 1px solid black;
+        padding: 20px;
+        margin-bottom: 15px;
+}
+.art2{
+    
+        background:rosybrown;
+        border: 1px solid black;
+        padding: 20px;
+        
+    }
+.art1 footer{
+    text-align: right;
+    padding: 15px;
+}
+.art2 footer{
+    text-align:right;
+    padding: 15px;
+}
+.columna{
+    width: 300px;
+    border:1px solid black ;
+    float: left;
+    margin: 20px 0px;
+
+
+}
+.columna hgroup{
+
+   font-size: 18px;
+   background: #000;
+   color: aliceblue;
+   font-family:sans-serif
+}
+.columna blockquote{
+    border: 1px solid black;
+    padding: 35px;
+    background: grey;
+    color: aliceblue;
+    
+}
+.m1{
+    margin-bottom: 20px;
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    background: grey;
+    color: aliceblue;
+}
+img{
+    width: 80px;
+    margin:auto;
+    display: block;
+    padding: 15px;
+}
+time{
+    color: aquamarine;
+}
+cite{
+    color: blue;
+}
